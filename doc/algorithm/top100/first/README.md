@@ -22,7 +22,7 @@
 6. [括号生成](https://leetcode-cn.com/problems/generate-parentheses/submissions/)
 \
 dfs+剪枝 看了题解和之前代码写出来
-7. [下一个排列](https://leetcode-cn.com/problems/next-permutation/submissions/)\
+7. [下一个排列](https://leetcode-cn.com/problems/<nav></nav>ext-permutation/submissions/)\
 思路+细节吧  第一次做没有思路\
 看了一遍[题解](https://leetcode-cn.com/problems/next-permutation/solution/xia-yi-ge-pai-lie-suan-fa-xiang-jie-si-lu-tui-dao-/)
 
