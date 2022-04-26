@@ -1,6 +1,9 @@
+# Tips
+这个文章||分享旨在记录phper的面试知识点，为自己和大家做个整理，可以在准备时做个参考，分享出来，如果有遗漏的地方，欢迎追加~\
+个人简介：PHPer3年经验，结合自己的面试总结，写下的这篇面试点记录
 # 算法
-### top100
-### 代码随想录
+### [LeetCodeTop100](https://leetcode-cn.com/problem-list/2cktkvj/)
+### [代码随想录](https://programmercarl.com/other/algo_pdf.html)
 
 # PHP
 ### 基础知识
@@ -85,7 +88,7 @@
 
 (以上是面试内容整理)
 ---------------------------------
-(以下是自己学习的)
+(以下是自己准备学习的)
 # docker
 ### 个人博客搭建在docker上
 # es
@@ -97,9 +100,9 @@
 # c语言
 ### 暂时没想到
 
-# 附录
-### [redis面试点](https://learnku.com/articles/61839)
-### [计算机网络面试点](https://learnku.com/articles/59484)
-### [编程语言底层](https://space.bilibili.com/1154479442/video?tid=0&page=2&keyword=&order=click)
-### [redis数据结构/底层](https://mp.weixin.qq.com/s/qptE172slg_6Tl1yuzdbfw)
-### [布隆过滤器](https://juejin.cn/post/6844904007790673933)
+### 附录
+##### [redis面试点](https://learnku.com/articles/61839)
+##### [计算机网络面试点](https://learnku.com/articles/59484)
+##### [编程语言底层](https://space.bilibili.com/1154479442/video?tid=0&page=2&keyword=&order=click)
+##### [redis数据结构/底层](https://mp.weixin.qq.com/s/qptE172slg_6Tl1yuzdbfw)
+##### [布隆过滤器](https://juejin.cn/post/6844904007790673933)
