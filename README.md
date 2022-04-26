@@ -9,6 +9,8 @@
 ##### 魔术方法
 ### 数组底层
 ### php-fpm和nginx关系
+### cookie/session/token
+### php内存回收机制
 ### laravel
 ##### 生命周期
 ##### 服务容器(IOC 依赖注入 --- PHP反射)
@@ -19,10 +21,14 @@
 # mysql
 ### 事务隔离级别
 ### 聚簇索引 && 非聚簇索引
+### 索引
+### 锁
+### 存储引擎
 ### 日志文件
 ##### redo log
 ##### undo log
 ##### bin log
+### 注意点/优化点
 ##### ...
 
 # redis
@@ -38,6 +44,11 @@
 ### REDIS为什么快
 ##### IO多路复用是什么 其他的类型有什么
 ### pipeline
+### 注意点/优化点
+### 附录
+- [面试点](https://learnku.com/articles/61839)
+- [数据结构/底层](https://mp.weixin.qq.com/s/qptE172slg_6Tl1yuzdbfw)
+- [布隆过滤器](https://juejin.cn/post/6844904007790673933)
 
 # 计算机网络
 ### 七层模型 && 五层模型
@@ -51,6 +62,8 @@
 ###### 快重传
 ###### 超时响应
 ###### ...
+### 附录
+- [面试点](https://learnku.com/articles/59484)
 
 # 设计模式
 ### 单例模式
@@ -83,3 +96,10 @@
 ### 消费mq消息
 # c语言
 ### 暂时没想到
+
+# 附录
+### [redis面试点](https://learnku.com/articles/61839)
+### [计算机网络面试点](https://learnku.com/articles/59484)
+### [编程语言底层](https://space.bilibili.com/1154479442/video?tid=0&page=2&keyword=&order=click)
+### [redis数据结构/底层](https://mp.weixin.qq.com/s/qptE172slg_6Tl1yuzdbfw)
+### [布隆过滤器](https://juejin.cn/post/6844904007790673933)
