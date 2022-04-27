@@ -87,6 +87,10 @@
 
     归并排序在链表上的应用
 
-23. 
+23. [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)\
+
+    (入门)动态规划
+
+24. 
 
     
