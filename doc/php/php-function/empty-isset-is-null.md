@@ -1,4 +1,4 @@
-# empty() and isset() and is_null different
+# empty() and isset() and is_null() different
 
 先上结果图：
 
