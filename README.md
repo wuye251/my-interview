@@ -7,7 +7,7 @@
 
 # [PHP](https://github.com/wuye251/php-interview/tree/main/doc/php)
 ### 基础知识
-##### [empty && isset && is_null](./php-interview/doc/php/README.md)
+##### [empty && isset && is_null](/php/php-function/empty-isset-is-null.md)
 ##### array_merge && +
 ##### 魔术方法
 ### 数组底层
