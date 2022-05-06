@@ -1,5 +1,16 @@
 # empty() and isset() and is_null different
 
+先上结果图：
+
+<img src="assets/image-20220506235248506.png" alt="image-20220506235248506" style="margin-left:0px; zoom:45%;" />
+
+谈自己理解：
+
+1. isset在值为null或未声明情况下,都是fasle，其余情况都是true(0、""等都是true)
+2. Is_null只有在值为null时， 返回true
+
+下面放上代码，可以自己试试
+
 ```php
 <?php
 
@@ -43,11 +54,6 @@ echo "<br>";
 print('is_null(false) = '.intval(is_null($var5))); //false
 echo "<br>";
 ```
-
-<img src="assets/image-20220506235248506.png" alt="image-20220506235248506" style="margin-left:0px; zoom:50%;" />
-
-1. isset在值为null或未声明情况下,都是fasle，其余情况都是true
-2. Is_null只有在值为null时， 返回true
 
 参考：
 

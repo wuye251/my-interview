@@ -1,6 +1,7 @@
 # Tips
-这个文章||分享旨在记录phper的面试知识点，为自己和大家做个整理，可以在准备时做个参考，分享出来，如果有遗漏的地方，欢迎追加~\
+这个文章||分享旨在记录phper的面试知识点，为自己和大家做个整理，可以在准备时做个参考，分享出来，如果有遗漏的地方，欢迎追加, 首页不直接放答案，让大家先回忆一下对这些知识点的理解~\
 个人简介：PHPer3年经验，结合自己的面试总结，写下的这篇面试点记录
+
 # [算法](https://github.com/wuye251/php-interview/tree/main/doc/algorithm)
 ### [LeetCodeTop100](https://leetcode-cn.com/problem-list/2cktkvj/)
 ### [代码随想录](https://programmercarl.com/other/algo_pdf.html)
