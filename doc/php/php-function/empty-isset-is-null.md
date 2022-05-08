@@ -2,7 +2,7 @@
 
 先上结果图：
 
-<img src="assets/image-20220506235248506.png" alt="image-20220506235248506" style="margin-left:0px; zoom:40%;" />
+<img src="assets/image-20220506235248506.png" alt="image-20220506235248506" style="margin-left:0px; zoom:50%;" />
 
 谈自己理解：
 

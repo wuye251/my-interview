@@ -95,6 +95,10 @@
 
       [桶排序](https://www.runoob.com/w3cnote/bucket-sort.html)(题解这么说的)但我觉得是依赖数组下标天然有序解决通过
 
-25. 
+25. [207. 课程表](https://leetcode-cn.com/problems/course-schedule/)
+
+      拓扑排序(完成后面的任务需要先完成前置任务)+有向无环图(AC了BFS解法)
+
+26. 
 
       
