@@ -1,0 +1,1 @@
+[面向对象的文档](https://www.php.net/manual/zh/oop5.intro.php)
