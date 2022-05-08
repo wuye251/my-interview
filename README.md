@@ -9,7 +9,8 @@
 # [PHP](https://github.com/wuye251/php-interview/tree/main/doc/php)
 ### 基础知识
 ##### [empty && isset && is_null](doc/php/php-function/empty-isset-is-null.md)
-##### array_merge && +
+##### [array_merge && +](doc/php/php-function/array-merge和+.md)
+
 ##### 魔术方法
 ### 数组底层
 ### php-fpm和nginx关系
