@@ -12,39 +12,60 @@
 ##### [array_merge && +](doc/php/php-function/array-merge和+.md)
 
 ##### 魔术方法
-### 数组底层
-### php-fpm和nginx关系
-### cookie/session/token
-### php内存回收机制
-### laravel
-##### 生命周期
-##### 服务容器(IOC 依赖注入 --- PHP反射)
-##### 服务提供者
-##### 门面Facade
-##### 契约Contract
+##### 数组底层
+
+##### interface和abstract的区别
+
+##### php-fpm和nginx关系
+
+##### cookie/session/token
+
+##### php内存回收机制
+
+#### laravel
+
+- ##### 生命周期
+
+- ##### 服务容器(IOC 依赖注入 --- PHP反射)
+
+- ##### 服务提供者
+
+- ##### 门面Facade
+
+- ##### 契约Contract
 
 # [mysql](https://github.com/wuye251/php-interview/tree/main/doc/mysql)
-### 事务隔离级别
-### 聚簇索引 && 非聚簇索引
-### 索引
-### 锁
-### 存储引擎
-### 日志文件
-##### redo log
-##### undo log
-##### bin log
+#### 事务隔离级别
 
-### mysql执行顺序
+#### 聚簇索引 && 非聚簇索引
 
-##### select是怎么执行的
+#### 索引
 
-##### update是怎么执行的
+#### 锁
 
-### 注意点/优化点
-##### ...
+#### 存储引擎
+
+#### 日志文件
+
+- ##### redo log
+
+- ##### undo log
+
+- ##### bin log
+
+#### mysql执行顺序
+
+- ##### select是怎么执行的
+
+- ##### update是怎么执行的
+
+#### 注意点/优化点
+
+#### ...
 
 # [redis](https://github.com/wuye251/php-interview/tree/main/doc/redis)
 ### 数据类型
+
 ##### 使用场景
 ### 数据结构
 ### 缓存设计
