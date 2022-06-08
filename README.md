@@ -84,7 +84,12 @@
 ##### 缓存雪崩
 ##### 缓存穿透
 ##### 缓存击穿
-### Cluster
+
+**缓存一致性**
+
+- 可以看看 B 站的毛剑有次的分享
+
+### 集群Cluster
 ### 持久化AOF && RDB
 ### REDIS为什么快
 ##### IO多路复用是什么 其他的类型有什么
@@ -155,3 +160,6 @@
 ##### [编程语言底层](https://space.bilibili.com/1154479442/video?tid=0&page=2&keyword=&order=click)
 ##### [redis数据结构/底层](https://mp.weixin.qq.com/s/qptE172slg_6Tl1yuzdbfw)
 ##### [布隆过滤器](https://juejin.cn/post/6844904007790673933)
+
+[**go面经**](https://learnku.com/go/t/65436)
+
