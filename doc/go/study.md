@@ -26,4 +26,10 @@ curResult := map[string]interface{}{"bookId": curBookId, "page": curPageId, "xml
 > - 当我加上step2，未执行step3时，`main.go:6:2: no required module provides package github.com/gin-gonic/gin; to add it:
 >           go get github.com/gin-gonic/gin` go.mod 未包含这个gin-goinc包  说明step3是将包引入或者加载到go.mod里 
 
+- go mod 每个项目都有对应的一个包名，提交后别人想用可以拉你这个包名使用， 所以都需要初始化的
+- go get 分为2步
+  - 下载源码以及相关依赖到 gopath/pkg
+  - (如果可以编译为可执行程序) 编译放到gopath/bin下
+- go install 编译到gopath/bin下
+
 3. 
