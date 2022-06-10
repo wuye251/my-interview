@@ -4,6 +4,8 @@
 
 - channel（必问）
   channel 实现原理，底层实现结构，讲讲怎么优雅的关闭一个 channel。channel 有哪些应用，什么情况下 channel 会造成内存泄露？
+  - 有缓冲通道 和 无缓冲通道
+  
 - map （必问）
   map 的底层实现，什么情况下会扩容，怎么扩容？是线程安全的吗？那 sync 包中的 map 是怎么实现线程安全的？
 - context
