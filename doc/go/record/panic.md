@@ -31,4 +31,4 @@ SECTION5: 更新用户，删除用户
 
 > 1. category、user、article都在一个model包下   按照之前的喜欢命名 insert 、getById 会重复  目前只能每个方法后加上Category、user的后缀  有没有更好的办法解决
 > 2. retrun 抽离公共方法返回  code、msg、data为参数
-> 3. 入参加日志、 sql加日志
+> 3. 入参加日志、 sql加日志 
