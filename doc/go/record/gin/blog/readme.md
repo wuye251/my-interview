@@ -28,9 +28,14 @@ SECTION5: 更新用户，删除用户
 SECTION6:博客增删改查
 
 > 1. Preload 模型关联 看看别的吧
-> 2. jwt 包实现登录
 
+Section7: jwt实现
 
+> [jwt 包实现登录](https://pkg.go.dev/github.com/dgrijalva/jwt-go/v4)
+
+Section8: 登录接口添加、 中间件加在route
+
+> 1. route.Use(middleware.func()) 就实现使用中间件了
 
 <font color=red>出现的问题：</font> 
 
