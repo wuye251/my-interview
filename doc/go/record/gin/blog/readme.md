@@ -37,9 +37,55 @@ Section8: 登录接口添加、 中间件加在route
 
 > 1. route.Use(middleware.func()) 就实现使用中间件了
 
+Section9:上传服务
+
+> 1. Require 到go.mo  然后命令行go mod download/ go mod tidy就可以直到版本下载？
+> 2. 七牛对象存储
+
+Section10: 日志系统
+
+> 1. github.com/sirupsen/logrus
+> 2. 日志分割 github.com/lestrrat-go/file-rotatelogs、github.com/rifflock/lfshook
+
+Section11: validate&&跨域
+
+> 1. vaildate验证 model加标签  创建utils.validate文件进行验证
+>    1. 英文转中文
+>    2. 字段英文转中文model加label标签
+> 2. 跨域+列表count数
+
+### 后端接口完成=========
+
+
+
+section1: 前端框架初始
+
+> 1. Vue、 yarn、nodejs是干嘛的 了解一下
+>
+> 2. 初始化项目
+>
+>    1. vue create admin
+>
+>       1. Router 2.0(应该用3.0的)
+>
+>    2. Ant design vue
+>
+>       1. 安装 yarn add ant-design-vue --dev
+>       2. 配置按需加载https://www.antdv.com/docs/vue/introduce-cn
+>
+>       ![image-20220612225335967](assets/image-20220612225335967.png)
+>
+>       3. 安装yarn add axios
+>       4. yarn add babel-plugin-import --dev
+>       5. yarn serve
+>
+>    Route/index.js相当于路由  引入views每个vue后就可以加载对于页面
+
 <font color=red>出现的问题：</font> 
 
 > 1. category、user、article都在一个model包下   按照之前的喜欢命名 insert 、getById 会重复  目前只能每个方法后加上Category、user的后缀  有没有更好的办法解决
 > 2. retrun 抽离公共方法返回  code、msg、data为参数
 > 3. 入参加日志、 sql加日志 
 > 4. context
+> 5. 跨域理解（阮一峰)
+> 6. Vue、 yarn、nodejs是干嘛的 了解一下
