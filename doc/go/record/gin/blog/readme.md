@@ -77,15 +77,39 @@ section1: 前端框架初始
 >
 >       3. 安装yarn add axios
 >       4. yarn add babel-plugin-import --dev
->       5. yarn serve
+>       5. yarn add ant-design-vue --dev
+>       6. yarn serve
 >
 >    Route/index.js相当于路由  引入views每个vue后就可以加载对于页面
+>
+> 3. vue2和vue3语法的差异 导致搞了两天才弄完   回头看看vue3的东西  没有理论基础 不好整呀
 
 <font color=red>出现的问题：</font> 
 
 > 1. category、user、article都在一个model包下   按照之前的喜欢命名 insert 、getById 会重复  目前只能每个方法后加上Category、user的后缀  有没有更好的办法解决
+>
 > 2. retrun 抽离公共方法返回  code、msg、data为参数
+>
 > 3. 入参加日志、 sql加日志 
+>
 > 4. context
+>
 > 5. 跨域理解（阮一峰)
+>
 > 6. Vue、 yarn、nodejs是干嘛的 了解一下
+>
+> 7. vue2和vue3语法的差异 导致搞了两天才弄完   回头看看vue3的东西  没有理论基础 不好整呀
+>
+> 8. a-button是什么
+>
+>    ```vue
+>    <template>
+>        <div>
+>            登录页面
+>        <a-button type="primary">登录</a-button>
+>        </div>
+>    </template>
+>    
+>    ```
+>
+>    ![image-20220613225308892](assets/image-20220613225308892.png)
