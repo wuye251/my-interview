@@ -89,3 +89,7 @@ section1: 前端框架初始
 > 4. context
 > 5. 跨域理解（阮一峰)
 > 6. Vue、 yarn、nodejs是干嘛的 了解一下
+> 7. antd 中 :wrapper-col
+> 8. ![image-20220614160730127](assets/image-20220614160730127.png)
+>
+> 
