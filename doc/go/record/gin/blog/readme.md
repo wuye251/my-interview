@@ -77,12 +77,25 @@ section1: 前端框架初始
 >
 >       3. 安装yarn add axios
 >       4. yarn add babel-plugin-import --dev
->       5. yarn add ant-design-vue --dev
 >       6. yarn serve
 >
 >    Route/index.js相当于路由  引入views每个vue后就可以加载对于页面
 >
 > 3. vue2和vue3语法的差异 导致搞了两天才弄完   回头看看vue3的东西  没有理论基础 不好整呀
+>
+> 4. 全局变量在 main.js里声明 然后use即可
+>
+> ![image-20220615141814162](assets/image-20220615141814162.png)
+>
+> ![image-20220615141828857](assets/image-20220615141828857.png)
+>
+> tips: message是否可以以其他方式声明全局变量
+
+section 2: 
+
+> 1. vue router
+> 2. antdv 做页面布局
+> 3. 致富给的设置token、删除token
 
 <font color=red>出现的问题：</font> 
 
@@ -116,4 +129,6 @@ section1: 前端框架初始
 >    ```
 > 
 >    ![image-20220613225308892](assets/image-20220613225308892.png)
->    >>>>>> 88aea670649efc8864918d345dbcebca40595ea5
+>    
+> 9. vue router 前置守卫  未登录重定向
+>10. antdv layout做页面布局
