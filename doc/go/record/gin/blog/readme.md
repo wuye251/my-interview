@@ -96,6 +96,7 @@ section 2:
 > 1. vue router
 > 2. antdv 做页面布局
 > 3. 致富给的设置token、删除token
+> 4. 子路由是怎么跳转的  route.push只给了path 就可以跳?
 
 <font color=red>出现的问题：</font> 
 
@@ -111,10 +112,10 @@ section 2:
 6. Vue、 yarn、nodejs是干嘛的 了解一下
 > 7. antd 中 :wrapper-col
 > 8. ![image-20220614160730127](assets/image-20220614160730127.png)
-> 
->6. Vue、 yarn、nodejs是干嘛的 了解一下
-> 
-7. vue2和vue3语法的差异 导致搞了两天才弄完   回头看看vue3的东西  没有理论基础 不好整呀
+>
+> 6. Vue、 yarn、nodejs是干嘛的 了解一下
+>
+> 7. vue2和vue3语法的差异 导致搞了两天才弄完   回头看看vue3的东西  没有理论基础 不好整呀
 >
 > 8. a-button是什么
 >
@@ -125,10 +126,21 @@ section 2:
 >        <a-button type="primary">登录</a-button>
 >        </div>
 >    </template>
->    
+>
 >    ```
 > 
 >    ![image-20220613225308892](assets/image-20220613225308892.png)
->    
+> 
 > 9. vue router 前置守卫  未登录重定向
->10. antdv layout做页面布局
+> 10. antdv layout做页面布局
+> 11. export default defineComponent({
+>     methods: {
+>         logout() {
+>             console.log('logout event')
+>             removeToken()
+>             this.$router.push('/login')
+>         }
+>     }
+> })啥意思
+
+![image-20220615222537571](assets/image-20220615222537571.png)
