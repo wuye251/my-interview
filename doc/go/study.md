@@ -32,4 +32,4 @@ curResult := map[string]interface{}{"bookId": curBookId, "page": curPageId, "xml
   - (如果可以编译为可执行程序) 编译放到gopath/bin下
 - go install 编译到gopath/bin下
 
-3. 
+3. 数组[...]声明是什么意思
