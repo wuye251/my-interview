@@ -145,9 +145,14 @@ section 2:
 
 ![image-20220615222537571](assets/image-20220615222537571.png)
 
-
-
-
-
-
-
+- 打包优化 
+  - cdnhttps://juejin.cn/post/6844903850084663309
+  - 分析软件 https://juejin.cn/post/6844904056985485320
+  - 组件拆分(全局组件 拆分为按需引入)
+  - 最终
+    - CompressionWebpackPlugin压缩js
+    - go里返回gzip格式js  压缩率达到6/5
+    - 压缩前
+    - ![image-20220701225356719](assets/image-20220701225356719.png)
+    - 压缩后
+    - ![压缩后](assets/image-20220701225312334.png)
