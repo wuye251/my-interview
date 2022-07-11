@@ -85,7 +85,7 @@ func min(p1, p2 int) int {
 
 
 
-#### [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)
+## [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)
 
 #### 题目描述
 
@@ -124,10 +124,58 @@ func min(p1, p2 int) int {
 
 #### 解法步骤
 
-> 1. 确定状态/动作
+> 和上面121.题的解法类型， 影响因素多了不限次数买卖， 卖出不受影响， 买入时需要用最小成本买入 = 之前的利润 - 当前买入的成本达到最大值时,才买入
+>
+> 1. 当前第i天，存在这几个状态， 要么买入状态，要么卖出状态
+>    - **买入**： 可以是前面买入，当前持有不变;  可以是今天刚买入
+>    - **卖出**： 可以是之前已经卖出，当前不操作； 可以是今天刚卖出
 > 2. 定义dp数组、分析dp数组
+>    每一天，都有两种状态可操作, 买入、卖出， 则定义一个二维数组dp[i]\[j]\(j <=1)
+>    - dp[i]\[0]: 当前为买入状态, 持有的最大金额(最小的成本)
+>    - dp[i]\[1]： 当前为卖出状态, 持有的最大金额(最大的利润)
 > 3. 得出状态转换公式
+>    - dp[i]\[0]买入，1.中的两个场景 取代价最小的 dp[i]\[0] = max(dp[i-1]\[0], dp[i-1]\[1]-prices[i]) (这里max即为前面买入和刚买入情况下，成本最小) 
+>    - dp[i]\[1]卖出，1.中的两个场景，取获利最大的dp[i]\[1] = max(dp[i-1]\[1], prices[i]+dp[i-1]\[0]) (后面的是当前卖出的和前天持有之间的利润)
 > 4. 初始化
+>    - 第一天dp[0]\[0] = -prices[0]
+>    - 第一天卖出 情况不存在， 不操作即可获利最大 0
 > 5. 验证
 
-## 3
+#### 代码如下
+
+```golang
+func maxProfit(prices []int) int {
+    dp := make([][]int, len(prices))
+	for k, _ := range dp {
+		dp[k] = make([]int, 2)
+	}
+
+	dp[0][0] = -prices[0]
+	dp[0][1] = 0
+
+	for i:=1; i<len(prices); i++ {
+		dp[i][0] = max(dp[i-1][0], dp[i-1][1]-prices[i]) //前面持有的利润， 当前持有时的利润
+		dp[i][1] = max(dp[i-1][1], dp[i-1][0]+prices[i]) 
+	}
+
+	return dp[len(prices)-1][1]
+}
+
+func max(p1, p2 int) int{
+	if p1 > p2 {
+		return p1
+	}
+	return p2
+}
+
+func min(p1, p2 int) int{
+	if p1 > p2 {
+		return p2
+	}
+	return p1
+}
+```
+
+
+
+## 
