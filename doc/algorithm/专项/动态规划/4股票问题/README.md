@@ -177,5 +177,3 @@ func min(p1, p2 int) int{
 ```
 
 
-
-## 
