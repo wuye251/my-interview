@@ -58,6 +58,68 @@ type slice struct {
 	}
 ```
 
+> - [ ] slice的扩容策略 ？  内存对齐是什么？
+> - [ ] 
+
+### 切片作为参数传递
+
+1. 函数中， slice仅传递的是其拷贝副本， 所以在函数中修改，对于实参slice是不生效的， 除非传地址指针
+
+```golang
+package main
+
+import "fmt"
+
+func myAppend(s []int) []int {
+	// 这里 s 虽然改变了，但并不会影响外层函数的 s
+	s = append(s, 100)
+	return s
+}
+
+func myAppendPtr(s *[]int) {
+	// 会改变外层 s 本身
+	*s = append(*s, 100)
+	return
+}
+
+func main() {
+	s := []int{1, 1, 1}
+	newS := myAppend(s)
+
+	fmt.Println(s)
+	fmt.Println(newS)
+
+	s = newS
+
+	myAppendPtr(&s)
+	fmt.Println(s)
+}
+
+/*
+【output】
+[1 1 1]
+[1 1 1 100]
+[1 1 1 100 100]
+*/
+```
+
+
+
+# 并发相关
+
+## goroutine和线程，进程的区别
+
+> 线程包含： 用户态资源， 内核态资源， 每个资源中包含了为这个进程任务所必须的资源、开辟的空间地址，上下文等信息
+>
+> 协程goroutine： 仅有用户态资源， 对于线程少了内核态资源， 故而一个协程的大小是小于线程的， 在切换/开辟/销毁操作，代价比线程更小
+
+## channel
+
+> 使多个协程goroutine之间可以进行通信
+
+- 无缓冲管道
+- 有缓冲管道
+
 
 
 参考：
