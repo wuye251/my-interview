@@ -392,6 +392,24 @@ export default defineComponent({
 >   }
 > ```
 
+# 生命周期
+
+![](https://v3.cn.vuejs.org/images/lifecycle.svg)
+
+## beforeCreate
+
+## created
+
+## beforeMount
+
+## mounted
+
+## beforeUpdate/updated
+
+> 如果页面没有更新，仅更新值，不会触发钩子函数
+
+## beforeUnmount/unmounted
+
 # 附录
 
 - https://vue3.chengpeiquan.com/
