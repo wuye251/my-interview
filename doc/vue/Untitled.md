@@ -392,7 +392,7 @@ export default defineComponent({
 >   }
 > ```
 
-# 生命周期
+# [生命周期](https://v3.cn.vuejs.org/api/options-lifecycle-hooks.html)
 
 ![](https://v3.cn.vuejs.org/images/lifecycle.svg)
 
