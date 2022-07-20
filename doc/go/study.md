@@ -17,7 +17,7 @@ curResult := map[string]interface{}{"bookId": curBookId, "page": curPageId, "xml
 > //不在GOPATH路径下， 并且[set GO111MODULE=on](https://www.cnblogs.com/l199616j/p/15269281.html)
 >
 > 1. mkdir xxx && cd xxx
-> 2. go init mod gintest (init mod)
+> 2. go mod init  dirname/gintest (init mod)
 > 3. go mod tidy (what is this)
 > 4. go run main.go
 > 5. success
