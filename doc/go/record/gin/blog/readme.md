@@ -156,3 +156,27 @@ section 2:
     - ![image-20220701225356719](assets/image-20220701225356719.png)
     - 压缩后
     - ![压缩后](assets/image-20220701225312334.png)
+
+
+
+
+
+### docker构建项目
+
+1. 打包2.3G优化
+
+2. 连接数据库问题
+
+   > 代码中连接的mysql 地址host改为host.docker.internal
+
+3. 端口映射
+
+4. dockerfile可以启动了，但是如log的文件映射时候需要用命令来 docker xxx -v 本地目录:容器目录,
+
+5. 使用dockerfile -> docker-compose的需求[docker-compose](https://yeasy.gitbook.io/docker_practice/compose/introduction)
+
+   1. 文件挂载  需要用相对路径 而dockerfile不可以
+   2. `docker-compose build`   `docker-compose up -d` `docker-compose stop` 
+   3. 用了docker-compose 目前是完成了直接构建、运行docker-compose就可以完成部署wyblog后端  如果后期有别的服务部署 会往上继续更新
+
+参考： https://learnku.com/articles/46652 、 https://yeasy.gitbook.io/docker_practice/compose
