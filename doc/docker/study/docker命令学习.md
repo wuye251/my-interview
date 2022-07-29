@@ -39,3 +39,7 @@
 至此，我们完成了这人类一小步，个人一大步的阶段性胜利，我们可以通过dockerfile来部署/更新docker容器实例了
 
 学习地址:https://yeasy.gitbook.io/docker_practice/image/build
+
+
+
+> docker-compose logs -f 查看日志报错信息
