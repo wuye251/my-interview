@@ -3,6 +3,7 @@
 1. gmp模型调度中的抢占式是什么？ 非抢占式又是什么？ 协作又是什么？
 1. docker构建web博客   entrypoint是什么
 1. protobuf待完善 rpc部分
+1. 502 / 504傻傻分不清？
 
 
 
