@@ -18,6 +18,14 @@
 
 ## Golang
 
+### 基础学习
+> 掌握go语言基本语法后，记录体系学习go中各个知识点内容
+- [个人总结的golang基础知识](https://github.com/wuye251/php-interview/tree/main/doc/go)
+
+秘籍推荐：
+
+- [优质技术博主]([面向信仰编程](https://draveness.me/))
+
 ## Redis
 
 ## Mysql
