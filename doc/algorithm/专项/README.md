@@ -1,19 +1,19 @@
 > 专项练习源自https://programmercarl.com/ 学习记录(修改于2022/6/5)
 
 # 数组
-- [27. 移除元素](../list/27. 移除元素.md)
-- [977.有序数组的平方](./数组/977.有序数组的平方.md)
-- [209.长度最小的子数组](./滑动窗口/209.长度最小的子数组.md)
-- [59. 螺旋矩阵 II](./数组/59. 螺旋矩阵 II.md)
+- [27. 移除元素](../list/27.移除元素.md)
+- [977. 有序数组的平方](../list/977.有序数组的平方.md)
+- [209. 长度最小的子数组](../list/209.长度最小的子数组.md)
+- [59. 螺旋矩阵II](../list/59.螺旋矩阵II.md)
 
 # 链表
-- [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
-- [92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
-- [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/)
-- [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/)
-- [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
+- [206. 反转链表](../list/206.反转链表.md)
+- [92. 反转链表II](../list/92.反转链表II.md)
+- [203. 移除链表元素](../list/203.移除链表元素.md)
+- [24. 两两交换链表中的节点](../list/24.两两交换链表中的节点.md)
+- [19. 删除链表的倒数第N个结点](../list/19.删除链表的倒数第N个结点.md)
 # 哈希
-- [242. 有效的字母异位词](https://leetcode.cn/problems/valid-anagram/)
+- [242. 有效的字母异位词](../list/242.有效的字母异位词.md)
 
 # 字符串
 
@@ -24,22 +24,21 @@
 # 贪心算法
 
 # 动态规划
-
 ### 	入门
-- [509.斐波那契](https://leetcode.cn/problems/fibonacci-number/)
-- [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs)
-- [62. 不同路径](https://leetcode.cn/problems/unique-paths/)
-- [343. 整数拆分](https://leetcode.cn/problems/integer-break/)
-- [96. 不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/)
+- [509. 斐波那契](../list/509.斐波那契.md)
+- [70. 爬楼梯](../list/70.爬楼梯)
+- [62. 不同路径](../list/62.不同路径)
+- [343. 整数拆分](../list/343.整数拆分)
+- [96. 不同的二叉搜索树](../list/96.不同的二叉搜索树)
 ### 背包
 ### 打家劫舍
-- [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
-- [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)
-- [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/)
+- [198. 打家劫舍](../list/198.打家劫舍.md)
+- [213. 打家劫舍 II](../list/213.打家劫舍II.md)
+- [337. 打家劫舍 III](../list/337.打家劫舍III.md)
 ### 股票买卖
-- [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
-- [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)
+- [121. 买卖股票的最佳时机](../list/121.买卖股票的最佳时机.md)
+- [122. 买卖股票的最佳时机 II](../list/122.买卖股票的最佳时机II.md)
 # 滑动窗口
-- [209.长度最小的子数组](./滑动窗口/209.长度最小的子数组.md)
-- [3. 无重复字符的最长子串](./滑动窗口/3. 无重复字符的最长子串.md)
+- [209.长度最小的子数组](../list/209.长度最小的子数组.md)
+- [3. 无重复字符的最长子串](../list/3.无重复字符的最长子串.md)
 
