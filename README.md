@@ -24,9 +24,12 @@
 
 秘籍推荐：
 
-- [优质技术博主]([面向信仰编程](https://draveness.me/))
+- [优质技术博主- 面向信仰编程](https://draveness.me/)
 
 ## Redis
 
+> 作者太懒了，只留了一个[Redis地址](https://github.com/wuye251/php-interview/tree/main/doc/redis)
+
 ## Mysql
 
+> 作者太懒了， 啥都没有
