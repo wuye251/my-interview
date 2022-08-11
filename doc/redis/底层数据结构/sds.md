@@ -43,8 +43,6 @@ struct __attribute__ ((__packed__)) sdshdr64 {
 };
 ```
 
-我们先跳过sdshdr8、sdshdr16等不同， 从每个结构体内容来看, 都有`len` `alloc` `flags` `buf`这四个， 
-
 - **len**：是sds的特色之处，表示字符的长度，它让获取当前字符串长度的时间复杂度从O(n)降到了O(1)
 - **alloc：**表示当前字符分配的内存空间长度，追加扩容时会进行更新
 - **flags：**根据不同长度表示的不同存储类型， 如：长度<(2^7)-1时，他是sdshdr8(类型更小，占用空间更少)， 长度小于(2^16)-1时，它是更大的sdshdr16, 这样就节省了空间，关于这块类型的定义或者了解，就不展开了，这里加上[链接](https://blog.csdn.net/Mary19920410/article/details/71518130)，有兴趣的可以了解学习下
@@ -63,5 +61,5 @@ struct __attribute__ ((__packed__)) sdshdr64 {
 
 ## 参考
 
-- 《Redis设计与实现 · 黄健宏》
+- 《Redis设计与实现》· 黄健宏 · 第二章
 - [浅析C语言之uint8_t / uint16_t / uint32_t /uint64_t](https://blog.csdn.net/Mary19920410/article/details/71518130)
