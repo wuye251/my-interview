@@ -8,7 +8,7 @@
 
 ## 介绍SDS
 
-在[redis/s rc/sds.h](https://github.com/redis/redis/blob/unstable/src/sds.h)中关于sds结构声明如下：
+在[redis/s rc/sds.h](https://github.com/redis/redis/blob/7.0/src/sds.h)中关于sds结构声明如下：
 
 ```c
 /* Note: sdshdr5 is never used, we just access the flags byte directly.
