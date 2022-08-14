@@ -28,7 +28,21 @@
 
 ## Redis
 
-> 作者太懒了，只留了一个[Redis地址](https://github.com/wuye251/php-interview/tree/main/doc/redis)
+### 基本底层数据结构
+
+> 介绍、总结Redis底层用到的几种数据结构
+
+- [sds](./底层数据结构/sds.md)
+- [链表](./底层数据结构/链表.md)
+- [压缩链表](./底层数据结构/压缩链表.md)
+- [hashTable](./底层数据结构/hashTable.md)
+- [整数集合](./底层数据结构/整数集合.md)
+- [跳跃表](./底层数据结构/跳跃表.md)
+
+### 持久化
+
+- AOF
+- RDB
 
 ## Mysql
 
