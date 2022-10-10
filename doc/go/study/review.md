@@ -1,7 +1,7 @@
 
 
 1. sync mutex互斥锁和rwmutex读写锁的区别， 使用
-2. 
+2. ss := []byte(s) 圆括号是什么意思
 
 ### 目录
 
