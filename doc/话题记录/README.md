@@ -4,10 +4,9 @@
 1. docker构建web博客   entrypoint是什么
 1. protobuf待完善 rpc部分
 1. 502 / 504傻傻分不清？
-
-
-
-
+1. gorm 如何关联的表呢 还有字段 OrgId 是否能和表中organiztion_id关联上
+1. context包学习
+2. es kibana学习
 
 优先级：
 
