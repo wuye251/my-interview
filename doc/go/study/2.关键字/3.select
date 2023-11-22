@@ -1,0 +1,13 @@
+1. 优雅重启， 监听当前处理已完成信号，超过某个时长强制重启
+   ```go
+   for {
+       select {
+           case <-stopSingle:
+           	return
+           case <-time.After(5*time.Second):
+           	return
+       }
+   }
+   ```
+
+   
