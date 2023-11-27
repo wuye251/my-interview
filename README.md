@@ -25,6 +25,7 @@
 秘籍推荐：
 
 - [优质技术博主- 面向信仰编程](https://draveness.me/)
+- [兴趣解惑实践---煎鱼](https://eddycjy.gitbook.io/golang/di-6-ke-chang-yong-guan-jian-zi)
 
 ## Redis
 
