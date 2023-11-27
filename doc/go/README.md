@@ -12,4 +12,9 @@
 - [基于共享变量的并发](./study/并发/基于共享变量的并发.md)
 
 # 面试
-- [gmp描述一遍]()
+- 并发
+  - Sync.Mutex/RWMutex
+  - [channel](./study/3.并发/2.channel.md)
+    - https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-channel/
+  - [gmp描述一遍]()
+- 
