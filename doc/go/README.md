@@ -13,8 +13,8 @@
 
 # 面试
 - 并发
-  - Sync.Mutex/RWMutex
+  - [Sync.Mutex/RWMutex](./study/3.并发/1.sync.md)
   - [channel](./study/3.并发/2.channel.md)
     - https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-channel/
-  - [gmp描述一遍]()
+  - [gmp]()
 - 
