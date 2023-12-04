@@ -1,15 +1,23 @@
-# 数组
+# 基础
 
-# 切片
-- [切片和数组的差异](./study/基础/1.切片.md)
+1. 数组
 
-# 标签
+2. [切片](./study/基础/1.切片.md)
 
 # 并发
-- [channel](./study/并发/channel.md)
-- [gmp](./study/并发/gmp.md)
-- [sync锁](./study/并发/sync.md)
-- [基于共享变量的并发](./study/并发/基于共享变量的并发.md)
+0. [前言](./study/并发/基于共享变量的并发.md)
+
+1. [sync锁](./study/3.并发/1.sync.md)
+
+2. [channel](./study/并发/channel.md)
+
+3. [gmp](./study/3.并发/3.gmp.md)
+
+- - [ ] [网络轮训器](./study/3.并发/网络轮训器.md)
+
+
+
+=====================================
 
 # 面试
 - 并发
