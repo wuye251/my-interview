@@ -6,20 +6,16 @@
 
 # 3.并发
 0. [前言](./study/并发/基于共享变量的并发.md)
-
 1. [sync锁](./study/3.并发/1.sync.md)
-
 2. [channel](./study/并发/channel.md)
-
 3. [gmp](./study/3.并发/3.gmp.md)
-4. 
 
 - - [ ] [网络轮训器](./study/3.并发/网络轮训器.md)
   - [ ] [系统监控](./study/3.并发/4.系统监控.md)
 
 # 4. 内存管理
 
-
+1. [垃圾收集器cgo](./study/4.内存管理/2.垃圾收集器.md)
 
 =====================================
 
@@ -30,4 +26,5 @@
     - https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-channel/
   - [gmp]()
 - 内存管理
-  - 垃圾回收、三色标记
+  - [垃圾收集器cgo](./study/4.内存管理/2.垃圾收集器.md)
+    - [刘丹冰文档](https://learnku.com/articles/68141)
