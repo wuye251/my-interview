@@ -8,6 +8,11 @@
 
 - [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/)
 - [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
+- [61. 旋转链表](../../list/61. 旋转链表.md)
+
+## 递归
+
+- [138. 随机链表的复制](../../list/138. 随机链表的复制.md)
 
 ## 其他
 
