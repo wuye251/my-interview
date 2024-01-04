@@ -31,3 +31,4 @@
   - [垃圾收集器cgo](./study/4.内存管理/2.垃圾收集器.md)
     - [刘丹冰文档](https://learnku.com/articles/68141)
     - php的垃圾回收对比？
+  - 内存逃逸？
